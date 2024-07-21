@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Entprep - Empowering Future Entrepreneurs
+
+## Project Overview
+
+Entprep is designed to help aspiring entrepreneurs test and enhance their entrepreneurial skills. By providing a comprehensive and personalized learning experience, Entprep empowers young minds to master the fundamentals of entrepreneurship and apply them effectively in real-world scenarios.
+
+## Features
+
+### Level Up Your Entrepreneurship Skills
+Entprep teaches entrepreneurship in a fun and engaging way. It covers a mix of critical skills, including creativity, leadership, and strategic thinking. Think of these skills as tools in a toolbox – the more you understand and develop them, the more successful your ventures can be!
+
+### Personalized Learning Path
+We use advanced machine learning models to evaluate your unique entrepreneurial skills. This includes:
+
+- **Voice Clarity Classification**: Assesses your oratory skills, a critical aspect of successful entrepreneurship.
+- **Learning Style Detection**: Determines your preferred learning methods (visual, auditory, kinesthetic, etc.) to customize your learning experience.
+- **Image Classification and Business Scaling Feedback**: Our website provides images of various business scenarios. You provide input on how to scale up the business in the context of the image, and our model evaluates your suggestions and tells you if you are on the right track or not.
+
+By analyzing your strengths and areas for improvement, we create a personalized learning path that focuses on the aspects that will challenge and benefit you the most.
+
+### Practice Makes Perfect
+Our system provides you with interactive exercises and challenges to apply your entrepreneurial knowledge. You'll get instant feedback and helpful hints along the way, just like having a personal business coach!
+
+### Unlock Your Potential
+By mastering entrepreneurship, you'll be able to solve business problems more efficiently, think creatively like a successful entrepreneur, and tackle any business challenge that comes your way!
+
+### Real-World Applications
+See entrepreneurship in action! We show you how these concepts are used to build successful startups, innovative products, and thriving businesses you encounter every day. This makes learning entrepreneurship even more exciting and shows you the power of these skills.
+
+### Future Prospects: 3D Model Scenarios Using AR
+Looking ahead, we plan to incorporate 3D model scenarios using Augmented Reality (AR). This cutting-edge feature will allow you to:
+
+- **Visualize Business Environments**: Interact with 3D models of business scenarios, providing a more immersive and engaging learning experience.
+- **Hands-On Strategy Testing**: Experiment with scaling strategies in a simulated AR environment, giving you practical insights and feedback on your entrepreneurial decisions.
+- **Enhanced Learning Engagement**: Experience a more dynamic and interactive learning process, making it easier to grasp complex business concepts and apply them effectively.
+
+## Applications
+
+### Customized Learning Experiences
+Entrepreneurs will benefit from personalized learning paths tailored to their individual needs, maximizing their potential for success in business ventures.
+
+### Engagement and Motivation
+Interactive elements such as quizzes and instant feedback will keep entrepreneurs engaged and motivated, fostering a positive learning environment for mastering business concepts.
+
+### Accessibility
+By providing adaptive learning resources, our platform will make entrepreneurship education more accessible to underserved communities, including those with diverse learning styles and needs.
+
+### Continuous Improvement
+Through data analytics and user feedback, we will continuously refine our algorithms and content to improve the effectiveness of the platform and ensure it remains relevant and impactful in the field of entrepreneurship education.
+
+## Technologies Used
+- **Frontend**: Next.js
+- **Backend**: Flask
+- **Machine Learning Models**: Various data science models to assess entrepreneurial skills (sentiment analysis, speaking style, oratory skills).
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/your-repo/entprep.git`
+2. Navigate to the project directory: `cd entprep`
+3. Install dependencies:
+   - For the backend (Flask): `pip install -r requirements.txt`
+   - For the frontend (Next.js): `npm install`
+4. Run the development server:
+   - For the backend: `flask run`
+   - For the frontend: `npm run dev`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+We welcome contributions from the community.
