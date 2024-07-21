@@ -58,7 +58,7 @@ const products = [
   },
 ];
 const page = () => {
-  const [loading,setLoading]=useState(false);
+  const [loading,setLoading]=useState(true);
   setTimeout(() => {
     setLoading(false);
   }, 2000);
