@@ -1,4 +1,5 @@
 # Entprep - Empowering Future Entrepreneurs
+![Screenshot (92)](https://github.com/user-attachments/assets/d2cfa702-abf4-4b6e-96de-5e7f6ed83108)
 
 ## Project Overview
 
@@ -8,6 +9,8 @@ Entprep is designed to help aspiring entrepreneurs test and enhance their entrep
 
 ### Level Up Your Entrepreneurship Skills
 Entprep teaches entrepreneurship in a fun and engaging way. It covers a mix of critical skills, including creativity, leadership, and strategic thinking. Think of these skills as tools in a toolbox – the more you understand and develop them, the more successful your ventures can be!
+
+![Screenshot (86)](https://github.com/user-attachments/assets/44a7ac99-d889-45e2-a768-5ef8192264d0)
 
 ### Personalized Learning Path
 We use advanced machine learning models to evaluate your unique entrepreneurial skills. This includes:
