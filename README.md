@@ -1,6 +1,6 @@
 # Entprep - Empowering Future Entrepreneurs
 ![Screenshot (92)](https://github.com/user-attachments/assets/d2cfa702-abf4-4b6e-96de-5e7f6ed83108)
-https://github.com/ISHAAN-KKR/entprep-eval
+
 ## Project Overview
 
 Entprep is designed to help aspiring entrepreneurs test and enhance their entrepreneurial skills. By providing a comprehensive and personalized learning experience, Entprep empowers young minds to master the fundamentals of entrepreneurship and apply them effectively in real-world scenarios.
@@ -38,6 +38,9 @@ Looking ahead, we plan to incorporate 3D model scenarios using Augmented Reality
 - **Enhanced Learning Engagement**: Experience a more dynamic and interactive learning process, making it easier to grasp complex business concepts and apply them effectively.
 
 ## Applications
+
+### ML
+https://github.com/ISHAAN-KKR/entprep-eval
 
 ### Customized Learning Experiences
 Entrepreneurs will benefit from personalized learning paths tailored to their individual needs, maximizing their potential for success in business ventures.
