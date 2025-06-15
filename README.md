@@ -55,20 +55,18 @@ By providing adaptive learning resources, our platform will make entrepreneurshi
 Through data analytics and user feedback, we will continuously refine our algorithms and content to improve the effectiveness of the platform and ensure it remains relevant and impactful in the field of entrepreneurship education.
 
 ## Technologies Used
-- **Frontend**: Next.js
-- **Backend**: Flask
+- **Website**: Next.js
 - **Machine Learning Models**: Various data science models to assess entrepreneurial skills (sentiment analysis, speaking style, oratory skills).
+- **Deployment**: Vercel
 
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/your-repo/entprep.git`
 2. Navigate to the project directory: `cd entprep`
 3. Install dependencies:
-   - For the backend (Flask): `pip install -r requirements.txt`
-   - For the frontend (Next.js): `npm install`
+   - In the terminal: `npm install`
 4. Run the development server:
-   - For the backend: `flask run`
-   - For the frontend: `npm run dev`
+   - In the terminal: `npm run dev`
 
 ## Contributing
 We welcome contributions from the community.
