@@ -75,7 +75,7 @@ function AddNewInterview() {
 
 
             </div>
-            <Dialog open={openDialog}>
+            <Dialog open={openDialog} onOpenChange={setOpenDialog}>
                 <DialogContent className="max-w-2xl">
                     <DialogHeader>
                         <DialogTitle className='text-2xl'>Tell us more about your Business </DialogTitle>
