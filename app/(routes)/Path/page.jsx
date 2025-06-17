@@ -47,9 +47,9 @@ const page = () => {
   {/* <img src='/path/side.gif' className='absolute mt-[10rem] -z-10 h-screen w-screen'/> */}
   <div className="max-w-screen px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
     <div className="max-w-xl">
-      <h2 className="text-3xl font-bold sm:text-4xl">Skills of Entrepreneurship</h2>
+      <h2 className="text-3xl font-bold sm:text-4xl dark:text-gray-100">Skills of Entrepreneurship</h2>
 
-      <p className="mt-4 text-gray-800">
+      <p className="mt-4 text-gray-700 dark:text-gray-200">
       Master essential skills like leadership, strategic thinking, and communication to drive entrepreneurial success.
       </p>
     </div>
@@ -59,7 +59,7 @@ const page = () => {
   items.map((item, i) => (
     <div
     key={i}
-    className="relative flex bg-gray-50 flex-col items-center border-2 border-neutral-900 h-[15rem] shadow-md hover:scale-105 "
+    className="relative flex bg-gray-50 flex-col items-center border-2 border-neutral-900 h-[15rem] shadow-md hover:scale-105 dark:bg-gray-800 dark:border-gray-200"
   >
     {/* Overlay GIF */}
     <a href={item.link} className={`absolute inset-0 bg-contain bg-center opacity-0 hover:opacity-100 transition-opacity duration-300`}
@@ -70,13 +70,13 @@ const page = () => {
       src={item.icon}
       alt={item.title}
     />
-    <a href={item.link} className="mt-4 text-xl font-bold text-gray-800">{item.title}</a>
-    <p className="mt-2 text-center text-gray-600">{item.description}</p>
+    <a href={item.link} className="mt-4 text-xl font-bold text-gray-800 dark:text-gray-100">{item.title}</a>
+    <p className="mt-2 text-center text-gray-600 dark:text-gray-300">{item.description}</p>
   </div>
   
   ))
 }
-  <div className="flex bg-gray-50 flex-col items-center b-2 border-neutral-900 h-[10rem] shadow-md">
+  <div className="flex bg-gray-50 flex-col items-center b-2 border-neutral-900 h-[10rem] shadow-md dark:bg-gray-800 dark:border-gray-200">
   <img
     className="w-full h-ull"
     src='/path/side.gif'
