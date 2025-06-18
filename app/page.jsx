@@ -9,7 +9,9 @@ import Nav from "./_Components/Navbar";
 import TextRevealByWord from "./_Components/Text-reveal";
 import { TrendingUp,ArrowUpFromDot  } from "lucide-react";
 import { Button } from "@/components/ui/button";
- 
+import { ThemeProvider } from "@/components/theme-provider";
+import ThemeToggle from "@/components/ui/theme-toggle";
+
 const products = [
   {
     title: "Market Understanding",
@@ -70,6 +72,11 @@ const page = () => {
       <>
        <Nav/>
 
+       <ThemeProvider>
+         <div className="fixed top-4 right-4 z-50">
+           <ThemeToggle />
+         </div>
+       </ThemeProvider>
 
 <section id='hero'
   className="relative bg-[url('/banner.jpg')] bg-cover bg-center bg-no-repeat opacity-90"
