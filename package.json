@@ -11,7 +11,8 @@
     "db:kits": "npx drizzle-kit studio"
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.1.5",
+   
+    "@clerk/nextjs": "^5.7.5",
     "@google/generative-ai": "^0.12.0",
     "@neondatabase/serverless": "^0.9.3",
     "@radix-ui/react-collapsible": "^1.0.3",
