@@ -7,9 +7,12 @@ function page() {
    <>
    <a href='/Path'>
 
-    <Button varinat='outline' className='mt-3 -ml-10'>&lt; Back</Button>
+    <Button variant='outline' className='mt-3 -ml-10 text-black dark:text-white border-black dark:border-white hover:bg-gray-100 dark:hover:bg-neutral-800 transition-colors'>
+  &lt; Back
+</Button>
+
    </a>
-   <div className='p-10'>
+   <div className='p-10 bg-white text-black dark:bg-neutral-900 dark:text-white transition-colors duration-300'>
     <h2 className='font-bold text-2xl'>Dashboard</h2>
     <h2 className='text-gray-500'>Create and start your AI pitch</h2>
 
