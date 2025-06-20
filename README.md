@@ -63,12 +63,19 @@ Through data analytics and user feedback, we will continuously refine our algori
 
 1. Clone the repository: `git clone https://github.com/your-repo/entprep.git`
 2. Navigate to the project directory: `cd entprep`
-3. Install dependencies:
-   - For the backend (Flask): `pip install -r requirements.txt`
-   - For the frontend (Next.js): `npm install`
-4. Run the development server:
-   - For the backend: `flask run`
-   - For the frontend: `npm run dev`
+3. Set up environment variables:
+   - Create a file named `.env.local` in the root of the project.
+   - Add the following lines to `.env.local`, replacing the values with your actual keys:
+     ```env
+     NEXT_PUBLIC_DRIZZLE_DB_URL=your_neon_db_connection_string
+     NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+     CLERK_SECRET_KEY=your_clerk_secret_key
+     ```
+4. Install dependencies:
+   - `npm install`
+5. Run the development server:
+   - `npm run dev`
 
 ## Contributing
 We welcome contributions from the community.

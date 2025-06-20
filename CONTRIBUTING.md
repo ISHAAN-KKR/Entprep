@@ -26,6 +26,15 @@ Make sure you're in the project root folder, then run:
 ```bash
 npm install
 ```
+Set up environment variables:
+   - Create a file named `.env.local` in the root of the project.
+   - Add the following lines to `.env.local`, replacing the values with your actual keys:
+     ```env
+     NEXT_PUBLIC_DRIZZLE_DB_URL=your_neon_db_connection_string
+     NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+     CLERK_SECRET_KEY=your_clerk_secret_key
+     ```
 
 ---
 
